@@ -1,6 +1,54 @@
 @charset "utf-8";
-#wrap .g-home{   
-    width: 80%;
-    height: 1500px;
-    background-color: blue;
+#wrap .g-home {
+  width: 80%;
+  height: 1500px;
+}
+
+.g-home .banner {
+  height: 860px;
+}
+
+/* banner轮播 */
+.g-home .banner ul li {
+  background: url("../images/home/img_bg_1.jpg") no-repeat center/cover;
+}
+.g-home .banner ul li:nth-child(2) {
+  background: url("../images/home/img_bg_2.jpg") no-repeat center/cover;
+}
+.g-home .banner ul li:nth-child(3) {
+  background: url("../images/home/img_bg_3.jpg") no-repeat center/cover;
+}
+.banner ul li .opacity {
+  background-color: rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+.banner .content {
+  display: inline-block;
+  width: 50%;
+  margin-top: 25%;
+}
+.banner .content > h2 {
+  font-size: 45px;
+}
+.banner .content p a {
+  display: inline-block;
+  width: 188px;
+  height: 60px;
+  background-color: #fff;
+  line-height: 60px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+/* 按钮hover效果 */
+.banner .content p a:hover {
+  background-color: #228896;
+  color: #fff;
+}
+
+.banner ol li{
+    width: 12px;
+    height: 12px;
+    margin: 5px;   
+    background-color: #000;
+    cursor: pointer;
 }
