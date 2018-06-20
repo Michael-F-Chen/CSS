@@ -1,55 +1,56 @@
 @charset "utf-8";
-#wrap .g-nav{
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 20%;
-    height: calc(100% - 60px); 
-    padding-top: 60px;
-    text-align: center;
+#wrap .g-nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 20%;
+  height: calc(100% - 60px);
+  padding-top: 60px;
+  text-align: center;
 }
 
-.g-nav h2{
-    margin-bottom: 75px;
-    font-size: 36px;
-    font-weight: bold;
+.g-nav h2 {
+  margin-bottom: 75px;
+  font-size: 36px;
+  font-weight: bold;
 }
 
-.nav ul li{
-    margin-bottom: 20px;
-    font-size: 14px;
-    font-weight: bold;
-    letter-spacing: 2px;
+.nav ul li {
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 
 /* :hover 下划线效果 */
-.nav ul li a:after, .nav ul li .focus:after{
-    position: absolute;
-    content: "";
-    width: 0%;
-    height: 2px;
-    bottom: 0;
-    left: 50%;
-    background-color: #228896;
-    transition: .3s;
+.nav ul li a:after,
+.nav ul li .focus:after {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  background-color: #228896;
+  transition: 0.3s;
 }
-.nav ul li a:hover:after, .nav ul li .focus:after{
-    width: 100%;
-    left: 0;
+.nav ul li a:hover:after,
+.nav ul li .focus:after {
+  width: 100%;
+  left: 0;
 }
 
 /* copy样式 */
-.copy p{
-    width: 80%;
-    margin: 0 auto;
+.copy p {
+  width: 80%;
+  margin: 0 auto;
 }
 
-.copy ul li{
-    display: inline-block;
-    margin: 0 3px;
+.copy ul li {
+  display: inline-block;
+  margin: 0 3px;
 }
 /* hover 阿里图标 */
-.copy ul li a:hover{
-    color: #228896;
+.copy ul li a:hover {
+  color: #228896;
 }
-

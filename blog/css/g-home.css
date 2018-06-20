@@ -5,7 +5,7 @@
 
 .g-home .banner {
   height: 860px;
-   margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 /* banner轮播 */
@@ -49,17 +49,18 @@
   width: 12px;
   height: 12px;
   margin: 5px;
-  background-color: rgba(255,255,255,.5);
+  background-color: rgba(255, 255, 255, 0.5);
   border-radius: 50%;
   cursor: pointer;
 }
 
 /* service样式 */
-.g-home .services{
+.g-home .services,
+.g-home .rencent-blog {
   width: 93%;
   margin: 0 auto 130px;
 }
-.services h2{
+.services h2 {
   /* font-weight: bold; */
   letter-spacing: 2px;
 }
@@ -71,12 +72,11 @@
   margin-left: 2%;
   margin-bottom: 40px;
   font-size: 0;
-
 }
-.services ul li div{
+.services ul li div {
   display: inline-block;
 }
-.services .content .icon{
+.services .content .icon {
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -86,9 +86,14 @@
   font-weight: bold;
   color: #228896;
 }
-.services .content .text{
+.services .content .text {
   width: calc(100% - 110px);
 }
-.services .content .text p{
+.services .content .text p {
   color: rgba(0, 0, 0, 0.5);
+}
+
+/* rencent-blog */
+.rencent-blog h2{
+  
 }
