@@ -48,6 +48,7 @@ img{display:block;}
     height:100%;
 }
 /*内边距单样式*/
+.pad25{padding:25px;}
 .pad-top5{padding-top:5px;}
 .pad-left5{padding-left:5px;}
 .pad-right5{padding-right:5px;}
@@ -74,7 +75,9 @@ img{display:block;}
 .mar-left10{margin-left:10px;}
 .mar-left15{margin-left:15px;}
 .mar-right5{margin-right:5px;}
+.mar-bottom10{margin-bottom:10px;}
 .mar-bottom20{margin-bottom:20px;}
+.mar-bottom30{margin-bottom:30px;}
 .mar-bottom35{margin-bottom:35px;}
 .mar-bottom55{margin-bottom:55px;}
 .mar-bottom140{margin-bottom:140px;}
@@ -86,15 +89,19 @@ img{display:block;}
     color:#fff; 
 }
 /*字体大小样式*/
+.ft-weight{font-weight: bold}
 .ft-size0{font-size:0;}
 .ft-size12{font-size:12px;}
 .ft-size14{font-size:14px;}
 .ft-size16{font-size:16px;}
 .ft-size18{font-size:18px;}
+.ft-size30{font-size:30px;}
 .ft-size40{font-size:40px !important;}
 /*字体行高*/
 .li-heihgt25{line-height:25px;}
 .li-height30{line-height:30px;}
 /*垂直对齐方式*/
 .ver-middle{vertical-align: middle;}
+
+.dis-block{display: block;}
 

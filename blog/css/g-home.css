@@ -56,7 +56,8 @@
 
 /* service样式 */
 .g-home .services,
-.g-home .rencent-blog {
+.g-home .rencent-blog,
+.g-home .get-in-touch{
   width: 93%;
   margin: 0 auto 130px;
 }
@@ -94,6 +95,48 @@
 }
 
 /* rencent-blog */
-.rencent-blog h2{
-  
+.rencent-blog .content ul {
+  margin-left: -1%;
+}
+.rencent-blog .content ul li {
+  width: 24%;
+  margin-left: 1%;
+}
+.rencent-blog .content ul li > a {
+  overflow: hidden;
+}
+.rencent-blog .content .text {
+  background-color: #fff;
+}
+.rencent-blog .content .text span,
+.rencent-blog .content .text p {
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.45);
+}
+/* hover 图片缩小 (先放大再缩小,超出部分隐藏)*/
+.rencent-blog .content ul li img {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+.rencent-blog .content ul li :hover img {
+  transform: scale(1);
+}
+
+/* get-in-touch */
+.g-home .get-in-touch h2{
+  color: #228896;
+}
+.get-in-touch .content{
+  width: 50%;
+}
+.get-in-touch .content p{
+  color: #228896;
+}
+.get-in-touch .content a {
+  padding: 10px 20px;
+  background-color: #228896;
+  color: #fff;
+}
+.get-in-touch .content a:hover {
+  background-color: #279bab;
 }
