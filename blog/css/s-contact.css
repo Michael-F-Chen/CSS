@@ -1,0 +1,31 @@
+@charset "utf-8";
+#wrap .g-home .contact {
+  width: calc(100% - 100px);
+  padding: 60px 50px 30px 50px;
+  background-color: #fff;
+}
+#wrap .g-home .contact ul {
+  margin-left: -3%;
+}
+#wrap .g-home .contact ul li {
+  width: 30%;
+  margin-left: 3%;
+}
+
+.g-home .get-in-touch .form-group {
+  width: 45%;
+}
+.form-group input,
+.form-group textarea {
+  width: calc(100% - 40px);
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  outline: none;
+  background-color: #fff;
+}
+.form-group input:focus,
+.form-group textarea:focus {
+  border: 2px solid #228896;
+}

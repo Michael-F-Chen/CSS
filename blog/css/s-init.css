@@ -58,6 +58,7 @@ img{display:block;}
 .pad-right8{padding-right:8px;}
 .pad-bottom8{padding-bottom:8px;}
 .pad-top10{padding-top:10px;}
+.pad-top60{padding-top:60px;}
 .pad-left10{padding-left:10px;}
 .pad-right10{padding-right:10px;}
 /*内边距符合样式*/
@@ -69,6 +70,7 @@ img{display:block;}
 .mar-top8{margin-top:8px;}
 .mar-top10{margin-top:10px;}
 .mar-top15{margin-top:15px;}
+.mar-top35{margin-top:35px;}
 .mar-top55{margin-top:55px;}
 .mar-left5{margin-left:5px;}
 .mar-left8{margin-left:8px;}

@@ -1,0 +1,10 @@
+@charset "utf-8";
+.g-home .company .c-img {
+  width: 50%;
+}
+.g-home .company .text {
+  width: calc(50% - 30px);
+}
+.g-home .company .text p {
+  color: rgba(0, 0, 0, 0.5);
+}
